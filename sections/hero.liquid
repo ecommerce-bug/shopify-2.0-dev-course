@@ -1,11 +1,25 @@
-<div> Hello World</div>
+<div class="hero-image section"> 
+    <img src="{{'Hero Image.png'}}" loading="lazy">
+</div>
+
+
+
 
 {% schema %}
 {
   "name": "Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
   "presets": [
     {
-        "name": "Hero"
+        "name": "Hero",
+        "category": "Image"       
+         
     }
   ]
    

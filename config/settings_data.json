@@ -127,7 +127,7 @@
             "settings": {
               "text": "+1 123456789",
               "text_alignment": "left",
-              "color_scheme": "background-2",
+              "color_scheme": "inverse",
               "link": ""
             }
           },
